@@ -1,0 +1,16 @@
+nav a{ /*세로 nav*/
+    text-decoration: none;
+    color:black;
+    margin: 2em;
+}
+
+nav:first-child{ /* 가로 nav : 첫번째 nav만 적용 (첫번째만 first-child 설정가능)*/
+    display: flex;
+    justify-content: center;
+}
+
+nav:nth-child(2){ /*2번째 nav 설정 : column(가로 -> 세로)*/
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
